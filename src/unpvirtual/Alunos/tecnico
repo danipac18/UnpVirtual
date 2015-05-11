@@ -1,0 +1,13 @@
+package unpvirtual;
+
+
+public class tecnico extends Alunos 
+{
+
+    public tecnico(String nome, String nascimento, String cpf, String rg, String endereço, String matricula, String tipo) {
+        super(nome, nascimento, cpf, rg, endereço, matricula, tipo);
+    }
+    
+    
+    
+}
