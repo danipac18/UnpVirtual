@@ -5,12 +5,6 @@
  */
 package unpvirtual;
 
-
-
-/**
- *
- * @author romulocabral
- */
 public abstract class Disciplina extends unpvirtual.Usuario
 {
 
@@ -18,12 +12,6 @@ public abstract class Disciplina extends unpvirtual.Usuario
         super(nome, Nascimento, cpf, rg, endereço, matricula, tipo);
     }
 
-   
-    
-    /**
-     *
-     * @return
-     */
     public  String nome()
     {
         return "programação";
